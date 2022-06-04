@@ -25,9 +25,54 @@ ul{
 }
 
 /* header start */
+    .nav{
+        width: 100%;
+        padding: 21px 0;
+    }
+    .nav__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav__list{
+        display: flex;
+    }
+    .nav__item{
+        margin-right: 44px;
+    }
+    .nav__link{
+        color: #241C15;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .nav__reg{
+        display: flex;
+        align-items: center;
+   
+    }
+    .nav__reg-login{
+       width: 100px;
+       width: 100%;
+       padding: 12px 0;
+       border: 2px solid #241C15;
+       font-weight: 700;
+       font-size: 16px;
+       text-align: center;
+        display: inline-block;
+      
 
-
-
+    }
+    .nav__reg-sign{
+        width: 118px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+        border: 2px solid #241C15;
+        padding: 12px 0;
+        margin-left: 24px;
+        display: inline-block;
+        text-align: center;
+    }
 
 /* header end */
 

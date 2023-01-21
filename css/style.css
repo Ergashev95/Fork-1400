@@ -66,6 +66,70 @@ ul{
 
 
 /* community start */
+.community{
+    width: 100%;
+
+}
+.community_h2{     
+    width: 457px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 110px 0;
+    margin-bottom: 45px;   
+    color: #692340;
+}
+.card{
+    display: flex;
+}
+.cards{
+    /* display: flex;
+    justify-content: space-between; */
+     padding: 50px;
+}
+.cards_img{
+    width: 327px;
+    height: 184px;
+   
+}
+.cards_p1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #692340;
+    width: 152px;
+    height: 40px;
+    margin-top: 15px;
+}
+.cards_h3{
+    width: 354px;
+    height: 61px;
+    font-size: 27px;
+    font-weight: 700;
+    margin:0;
+    color: #692340;
+    margin-bottom: 18px;
+
+}
+.cards_p2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #692340;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    column-gap: 330px;
+}
+.btn_h3{
+    font-size: 24px;
+    font-weight: 700;
+    
+
+}
 
 
 

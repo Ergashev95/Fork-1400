@@ -28,6 +28,7 @@ ul {
 }
 
 /* header start */
+
 .nav__menu {
     display: flex;
     justify-content: space-between;
@@ -73,7 +74,6 @@ ul {
 .header__desc {
     display: flex;
     flex-direction: column;
-    width: 635px;
     padding: 10px 170px;
     column-gap: 35px;
     left: 0;
@@ -97,14 +97,32 @@ ul {
 }
 
 .header__desc-text {
+    width: 638px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #692340;
+    margin-bottom: 35px;
 }
+
 .header__desc-btn {
+    width: 219px;
     padding: 20px 40px;
+    background: #692340;
+    box-shadow: 0px 0px 0px #431629;
+    border-radius: 0px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FBEECA;
 }
+
+.header__desc-silka {
+    margin-bottom: 35px;
+}
+
 /* header end */
 
 

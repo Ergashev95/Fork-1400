@@ -127,8 +127,24 @@ ul{
 .btn_h3{
     font-size: 24px;
     font-weight: 700;
-    
+    width: 217px;
+    height: 53px;
+    text-align: center;
+    color: #692340;
 
+}
+
+.btn_p{
+    width: 171px;
+    height: 60px;
+    color: #692340;
+    margin-top: 30px;
+    text-align: center;
+    border: solid 2px 
+    #692340;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 
